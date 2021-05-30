@@ -14,7 +14,7 @@ GH_ACCESS_TOKEN=$(cat .githubac/aws-bootstrap-access-token)
 GH_OWNER=$(cat .githubac/aws-bootstrap-owner)
 GH_REPO=$(cat .githubac/aws-bootstrap-repo)
 GH_BRANCH=master
-
+#ok
 
 
 # Deploys static resources
