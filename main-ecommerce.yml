@@ -181,7 +181,7 @@ Resources:
       TargetPipelineVersion: !GetAtt Pipeline.Version
       RegisterWithThirdParty: true            
               
-
+# ok
   InstanceProfile:
     Type: "AWS::IAM::InstanceProfile"
     Properties:
