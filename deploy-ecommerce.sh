@@ -6,7 +6,7 @@ CLI_PROFILE=awsecommerce2
 
 EC2_INSTANCE_TYPE=t2.micro
 
-AWS_ACCOUNT_ID=`aws sts get-caller-identity --profile awsbootstrap \
+AWS_ACCOUNT_ID=`aws sts get-caller-identity --profile awsecommerce2 \
   --query "Account" --output text`
 CODEPIPELINE_BUCKET="$STACK_NAME-$REGION-codepipeline-$AWS_ACCOUNT_ID"
 
@@ -52,6 +52,6 @@ aws cloudformation deploy \
        
 if [ $? -eq 0 ]; then
   aws cloudformation list-exports \
-    --profile awsecommerce1 \
+    --profile awsecommerce2 \
     --query "Exports[?Name=='InstanceEndpoint'].Value" 
 fi
