@@ -2,7 +2,7 @@
 # This is the new deploy script
 STACK_NAME=awsecommerce
 REGION=us-east-1 
-CLI_PROFILE=awsecommerce1
+CLI_PROFILE=awsecommerce2
 
 EC2_INSTANCE_TYPE=t2.micro
 
