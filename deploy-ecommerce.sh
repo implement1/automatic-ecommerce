@@ -1,6 +1,6 @@
 #!/bin/bash
 # This is the new deploy script
-STACK_NAME=awsecommerce
+STACK_NAME=awsecommerce2
 REGION=us-east-1 
 CLI_PROFILE=awsecommerce2
 
